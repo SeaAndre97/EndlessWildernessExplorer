@@ -25,7 +25,8 @@ class Player(pygame.sprite.Sprite):
         self.speed = 5
         self.health = 100
         self.bullet_cooldown = 0
-        self.invincibility = False  # Add invincible attribute
+        self.invincibility = False # Add invincible attribute
+
 
     #Setter for invincibility to On
     def set_invincibility_on(self):
@@ -34,7 +35,6 @@ class Player(pygame.sprite.Sprite):
     # Setter for invincibility to Off
     def set_invincibility_off(self):
         self.invincibility = False
-
 
     def update(self):
 
